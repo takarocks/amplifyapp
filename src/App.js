@@ -13,7 +13,7 @@ export default function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hi {user.username}! We now have Auth!</h1>
       </header>
-      <button onClick={signOut} class="amplify-button" type="submit">Sign out</button>
+      <button onClick={signOut} class="amplify-button" data-variation="primary" type="submit">Sign out</button>
     </div>
     )}
     </Authenticator>
